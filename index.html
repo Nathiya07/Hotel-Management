@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Javascrip counter</title>
+
+</head>
+<body>
+    <script type="text/javascript">
+        let counts = 0;
+        let maxCnt = 10;
+        let minCnt = 1;
+        function increment() {
+            if(counts<maxCnt){
+            counts += 1;
+            document.getElementById("cnt").innerHTML = counts;
+            }
+        };
+        function decrement() {
+            if(counts>minCnt){
+            counts -= 1;
+            document.getElementById("cnt").innerHTML = counts;
+            }
+        };
+        </script>
+        <button type="button" onClick="increment()">+</button>
+        <span> Clicks Count: </span><p id="cnt">0</p>
+        <button type="button" onClick="decrement()">-</button>
+</body>
+</html>

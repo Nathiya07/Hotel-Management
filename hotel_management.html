@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javaScript"  src="script.js">
+    </script>
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <h2>Rooms</h2>
+            </div>
+            <div class="col-sm">
+                <span id="roomMinus" onClick="decreaseRoomCnt()"><i class="fa fa-minus-circle minus-icon"></i></span>
+                <span id="roomCnt">1</span>
+                <span id="roomPlus" onClick="increaseRoomCnt()"><i class="fa fa-plus-circle plus-icon"></i></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <h2>Adult</h2>
+            </div>
+            <div class="col-sm">
+                <span id="adultMinus" onClick="decreaseAdultCnt()"><i class="fa fa-minus-circle minus-icon"></i></span>
+                <span id="adultCnt">1</span>
+                <span id="adultPlus" onClick="increaseAdultCnt()"><i class="fa fa-plus-circle plus-icon"></i></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <h2>Child</h2>
+            </div>
+            <div class="col-sm">
+                <span id="childMinus" onClick="decreaseChildCnt()"><i class="fa fa-minus-circle minus-icon"></i></span>
+                <span id="childCnt">0</span>
+                <span id="childPlus" onClick="increaseChildCnt()"><i class="fa fa-plus-circle plus-icon"></i></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
